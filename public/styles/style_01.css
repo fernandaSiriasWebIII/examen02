@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    color: #011D42;
+    height: 100%;
+    line-height: 14px;
+
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.linea_sep {
+    margin-top: 10px;
+}
+
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etiqueta {
+    background-color: #F0C229;
+    border: 1px solid black;
+    display: block;
+    width: 100px;
+}
+
+.contenido {
+    min-height: calc(100% - 5rem);
+}
+
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    min-width: 380px;
+}
+
+.tarjeta {
+    border: none !important;
+}
+
+.pie {
+    border-top: 2px rgb(66, 66, 66) solid;
+    font-size: 12px;
+    height: 4.5rem;
+    padding-top: 10px;
+}
+
+.div_pi {
+    float: left;
+    text-align: left;
+    width: 33%;
+}
+
+.div_pc {
+    border-left: 1px rgb(66, 66, 66) solid;
+    border-right: 1px rgb(66, 66, 66) solid;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 33%;
+}
+
+.div_pd {
+    float: left;
+    text-align: right;
+;
+    width: 33%;
+}
+
+/* Estilos del contenido principal */
+.main {
+    margin: 20px 0;
+}
+
+.titulo {
+    color: #007bff;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.boton {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos de la sección de la factura */
+.ConteFactura {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.Factura,
+.cliente,
+.fechas {
+    flex-basis: 30%;
+}
+
+.Factura input,
+.cliente input,
+.fechas input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos de la tabla */
+#facturaTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#facturaTable th,
+#facturaTable td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#facturaTable th {
+    background-color: #f2f2f2;
+}
+
+.div_pi {
+    float: left;
+    text-align: left;
+    width: 33%;
+}
+
+.div_pc {
+    border-left: 1px rgb(66, 66, 66) solid;
+    border-right: 1px rgb(66, 66, 66) solid;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 33%;
+}
+
+.div_pd {
+    float: left;
+    text-align: right;
+    width: 33%;
+}
+
+.tarjeta {
+    border: none !important;
+}
+
+.pie {
+    border-top: 2px rgb(66, 66, 66) solid;
+    font-size: 12px;
+    height: 4.5rem;
+    padding-top: 10px;
+}
